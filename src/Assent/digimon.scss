@@ -1,0 +1,33 @@
+.niveles {
+    text-align: center;
+    color: #121212;
+}
+
+.card {
+    width: fit-content;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.prueba3 {
+    text-align: center;
+}
+
+.boton {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+
+.busqueda {
+    display: flex;
+    justify-content: start;
+}
+
+.busqueda > input{
+    width: 80vw;
+}

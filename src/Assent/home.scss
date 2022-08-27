@@ -1,0 +1,23 @@
+.palabras {
+    text-align: center;
+}
+
+body {
+    background-color: lightskyblue !important;
+}
+
+.introduccion {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.bienvenida {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-image: linear-gradient(0,aqua 35%, white);
+}
+

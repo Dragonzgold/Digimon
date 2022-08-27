@@ -4,11 +4,11 @@ import routes from '../config/routes'
 
 function Navbar() {
   return (
-    <nav>
-      <ul>
+    <nav style={{width:"100%", backgroundColor:"#121212", heigth:"20vh"}}>
+      <ul style={{display:"flex"}}>
         {routes.map((route) => (
-          <li>
-            <Link to={route.path}>{route.title}</Link>
+          <li style={{listStyle:"none", margin:"1em"}}>
+            <Link to={route.path} style={{backgroundColor:"yellow", borderRadius:"5px", padding:".5em"}}>{route.title}</Link>
           </li>
         ))}
       </ul>

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function States() {
 
   const [count, setCount] = useState(0);
-  const [text, setText ] = useState("texto");
+  const [text, setText ] = useState("Wormon");
 
   return (
     <div className="App">
